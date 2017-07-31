@@ -1,0 +1,47 @@
+{
+  "name": "babel-preset-meridian",
+  "version": "1.0.0",
+  "description": "Shared babel configuration for Meridian projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefraley/babel-preset-meridian.git"
+  },
+  "keywords": [
+    "Babel",
+    "Webpack",
+    "Configuration",
+    "Javascript",
+    "Aruba",
+    "Meridian"
+  ],
+  "author": "Joe Fraley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joefraley/babel-preset-meridian/issues"
+  },
+  "homepage": "https://github.com/joefraley/babel-preset-meridian#readme",
+  "scripts": {
+    "format": "prettier-eslint --write \"./**/*.js\""
+  },
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-plugin-transform-async-to-generator": "6.16.0",
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-do-expressions": "6.22.0",
+    "babel-plugin-transform-object-rest-spread": "6.22.0",
+    "babel-plugin-transform-runtime": "6.22.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-latest": "6.22.0",
+    "babel-preset-react": "6.16.0"
+  },
+  "peerDependencies": {
+    "webpack": "2.x"
+  },
+  "devDependencies": {
+    "eslint": "3.17.1",
+    "eslint-config-meridian": "git+ssh://git@github.com/joefraley/eslint-config-meridian.git",
+    "prettier": "0.22.0"
+  }
+}
